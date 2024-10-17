@@ -13,6 +13,10 @@ from langchain_core.prompts import ChatPromptTemplate
 # Initialize model
 model = ChatOpenAI(model="gpt-4o")
 
+
+
+
+
 # Setup Jinja2 template rendering
 
 env = Environment(loader=FileSystemLoader('./prompts'))
